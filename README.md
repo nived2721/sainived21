@@ -18,26 +18,37 @@ Most effective on hard problems: diagnosing heap dumps, retuning connection pool
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-326CE5?style=flat-square&logo=kubernetes)
 ![React](https://img.shields.io/badge/React-18%2B-61DAFB?style=flat-square&logo=react)
 ![Amazon Bedrock](https://img.shields.io/badge/Amazon%20Bedrock-LLM%20Integration-FF9900?style=flat-square&logo=amazonaws)
+![Spring AI](https://img.shields.io/badge/Spring%20AI-Production%20LLM-brightgreen?style=flat-square&logo=spring)
+![Redis](https://img.shields.io/badge/Redis-Caching%20%7C%20Sessions-DC382D?style=flat-square&logo=redis)
 
 ---
 
 ## 🚀 Featured Projects
+
+### 🤖 Spring AI + Amazon Bedrock Chatbot
+> Java, Spring Boot, Spring AI, Amazon Bedrock, Redis, PostgreSQL, React
+
+Production-grade LLM integration with streaming responses, prompt engineering, Bedrock Guardrails, conversation memory via Redis, and full token cost observability. Built the same way you'd build any production backend — not a demo.
+
+🔗 [View Repository](https://github.com/sainived21/spring-ai-bedrock-chatbot)
+
+---
 
 ### 🔵 Real-Time Collaborative Text Editor
 > React, Java, Spring Boot, WebSockets, Redis, AWS
 
 Concurrent editing without conflicts — implemented Yjs CRDT over WebSockets so simultaneous edits never clobber each other, no rollback needed. Live cursor tracking and autosave via Redis TTL sessions. Deployed on AWS handling 500+ concurrent sessions.
 
-🔗 [View Repository](#)
+🔗 [View Repository](https://github.com/sainived21/realtime-collaborative-editor)
 
 ---
 
 ### 🟢 Distributed DB Benchmarking Framework
 > Java, Kafka, PostgreSQL, Redis, AWS EC2
 
-A load framework that fires 100K+ concurrent requests and tells you *why* things slowed down — not just that they did. Surfaced connection pool exhaustion as the p99 bottleneck; after tuning, latency improved 3x (380ms → 120ms).
+A load framework that fires 100K+ concurrent requests and tells you why things slowed down — not just that they did. Surfaced connection pool exhaustion as the p99 bottleneck; after tuning, latency improved 3x (380ms → 120ms). Adopted by internal teams for DB-layer diagnostics.
 
-🔗 [View Repository](#)
+🔗 [View Repository](https://github.com/sainived21/db-benchmarking-framework)
 
 ---
 
